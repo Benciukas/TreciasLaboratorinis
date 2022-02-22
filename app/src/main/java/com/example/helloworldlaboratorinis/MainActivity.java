@@ -14,9 +14,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void onBtnChangeColor(View view) {
+        TextView text=(TextView)findViewById(R.id.txtMain);
+        text.setBackgroundColor(0xFFFF0000);
 
-    public void onBtnMainClick(View view) {
-        TextView txtMain=(TextView)findViewById(R.id.txtMain);
-        txtMain.setText("Naujas tekstas");
     }
-}
+
+    public void onBtnChangeName(View view) {
+        TextView text=(TextView)findViewById(R.id.txtMain);
+        text.setText("New Text");
+    }
+    }
+
