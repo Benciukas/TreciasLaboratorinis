@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">HelloWorldLaboratorinis</string>
-    <string name="btnChangeName">Change name</string>
-    <string name="btnChangeColor">Change color</string>
-</resources>
