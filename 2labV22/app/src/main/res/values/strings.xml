@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">2labV2</string>
+    <string name="btnCalculate">Skaičiuoti</string>
+    <string name="txtName" />
 </resources>
