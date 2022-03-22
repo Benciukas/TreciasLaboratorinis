@@ -52,4 +52,4 @@ public class ExampleUnitTest {
         int actualValue = calcWordorChar2.getCharsCount2(givenText);
         assertEquals(expectedValue,actualValue);
     }
-}}
+}
